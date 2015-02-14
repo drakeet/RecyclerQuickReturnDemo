@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerQuickReturnDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">My Blog:\nhttp://drakeet.me \t贝壳单词：http://fir.im/seashell</string>
+</resources>

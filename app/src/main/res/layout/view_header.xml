@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_header"
+    android:layout_width="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:background="#ff239ff2"
+    android:layout_height="@dimen/header_height">
+
+    <ImageView
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/my_avatar"
+        />
+
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:autoLink="web"
+        android:textSize="12sp"
+        android:text="@string/about"/>
+
+</LinearLayout>
