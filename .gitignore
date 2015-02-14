@@ -36,4 +36,3 @@ build/
 .DS_Store
 
 *.keystore
-*.apk
